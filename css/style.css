@@ -1,0 +1,101 @@
+.header {
+  text-align:center;
+  padding-top: 20px;
+}
+
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.main-content {
+  padding:0 20px;
+  text-align: center;
+  width:500px;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+}
+
+#intro-header {
+  font-family: 'Reenie Beanie', serif;
+  /*font-size:1vw;*/
+}
+
+#intro-txt {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#tags {
+  font-family: 'IBM Plex Sans', sans-serif;
+  text-align:center;
+}
+
+.social {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#footer {
+  font-family: 'Reenie Beanie', serif;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+a, a:link, a:visited{
+	text-decoration:none;
+	color: black;
+	font-weight: bold;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  responsive, .main-content {
+    width:100%;
+  }
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}

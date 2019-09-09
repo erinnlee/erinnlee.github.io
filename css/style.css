@@ -26,6 +26,14 @@
   -o-animation: fadein 2s; /* Opera */
 }
 
+#long-read {
+  padding:0 1px;
+  text-align: center;
+  width:700px;
+  margin: auto;
+}
+
+
 #intro-header {
   font-family: 'Reenie Beanie', serif;
   /*font-size:1vw;*/
@@ -42,6 +50,11 @@
 
 .social {
   font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#small-txt {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 9.5px;
 }
 
 #footer {

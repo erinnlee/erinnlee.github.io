@@ -12,7 +12,7 @@
 .main-content {
   padding:0 20px;
   text-align: center;
-  width:500px;
+  width:600px;
   margin: auto;
 }
 
@@ -25,14 +25,6 @@
   -webkit-animation: fadein 2s; /* Safari and Chrome */
   -o-animation: fadein 2s; /* Opera */
 }
-
-#long-read {
-  padding:0 1px;
-  text-align: center;
-  width:700px;
-  margin: auto;
-}
-
 
 #intro-header {
   font-family: 'Reenie Beanie', serif;

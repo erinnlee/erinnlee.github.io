@@ -1,20 +1,21 @@
 body {	
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 48px;
     background-color: #FDFFF6;
 }
 
-p {
-	font-family: 'Reenie Beanie', serif;
+a {
+	text-decoration:none;
+	color: black;
+	font-weight: bold;
 }
 
 .center {
-  margin:auto;
+    margin: auto;
+    flex: auto;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
 }
-
-/* "."" == class */
-.box {
-	flex-direction: column;
-}
-
-/* "#"" == id */

@@ -1,15 +1,33 @@
+html {
+  font-size: 26px;
+}
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(26px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 30px;
+  }
+}
+
 body {	
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Chivo', sans-serif;
+    font-weight: 300;
     background: radial-gradient(50% 75.51% at 50% 70%, #FFD3C7 2%, rgba(255, 211, 200, 0.04) 100%),
     radial-gradient(90% 60% at 94% 96%, #C8EAFF 0%, rgba(230, 245, 255, 0) 70%),
     radial-gradient(44% 80% at 4% 94%, rgba(107, 110, 154, 0.8) 0%, rgba(225, 225, 234, 0) 100%), #fffff3 !important;
     background-attachment: fixed !important;
 }
 
+#note {
+    font-size: medium; 
+}
+
 a {
 	text-decoration:none;
 	color: black;
-	font-weight: bold;
 }
 
 .center {
@@ -21,4 +39,11 @@ a {
     left: 50%;
     transform: translate(-50%, -50%);
     flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'Playfair Display', serif;
+ font-weight: 700;
+ font-style: italic;
+ margin: 0px;
 }

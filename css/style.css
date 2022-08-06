@@ -26,6 +26,7 @@ body {
 }
 
 a {
+    font-size: medium; 
 	text-decoration:none;
 	color: black;
 }
